@@ -6,9 +6,9 @@ public class Cart {
 
     private float totalValue;
 
-    public Cart(Product[] products, float totalValue) {
-        this.products = products;
-        this.totalValue = totalValue;
+    public Cart() {
+        this.products = new Product[0];
+        this.totalValue = 0.0f;
     }
 
     public Product[] getProducts() {
